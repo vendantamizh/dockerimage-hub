@@ -1,6 +1,6 @@
 pipeline{
 
-	agent {label 'slave1'}
+	agent {label 'sbi'}
 
 	environment {
 		DOCKERHUB_CREDENTIALS=credentials('docker-push')
